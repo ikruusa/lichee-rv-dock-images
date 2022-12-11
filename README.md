@@ -19,7 +19,7 @@ When the system boots it will play sound (to hear this you have to connect `4-8 
 The hostname is initially `rvdock`.
 To log in - username: `root`, password: `rvdock`
 
-You have to configure WiFi manually, from command line do `wpa_passphrase "yourssid" yourpasswd >> /etc/wpa_supplicant.conf`. Done. Reboot. Warning - you may want to remove plain text password from `/etc/wpa_supplicant.conf` later.
+You have to configure WiFi manually, from command line do `wpa_passphrase "yourssid" yourpasswd >> /etc/wpa_supplicant.conf`. Done. Reboot. Now you can login via `ssh` also. Warning - you may want to remove plain text password from `/etc/wpa_supplicant.conf` later.
 
 What the system includes:
 * linux kernel 6.1-rc3 riscv64
