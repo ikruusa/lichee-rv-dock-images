@@ -32,6 +32,7 @@ What the system includes:
 * pipewire for audio processing (configuration part is missing)
 * utils to manipulate GPIOs: `gpiodetect`, `gpioinfo`, `gpioset`,  `gpioget` (check the demo `gpio/gpio_control.sh`)
 * NTP (not yet fully configured)
+* `htop` command for better monitoring
 * simple demo scripts under `/root/demos`
 
 Issues:
