@@ -14,7 +14,7 @@ This may look an oddly small operating system but its a real thing.
 - on linux use `dd` command
 
 Connect HDMI display cable (the resolution is set to 1280x800 initially) and power up the board via USB-C port. Also, when working with the board directly you have to connect keyboard to the USB port. You need this to configure WiFi first time.
-When the system boots it will play sound (to hear this you have to connect 4-32 Ohm speaker to the speaker connector on the board) and the RGB led will blink several times.
+When the system boots it will play sound (to hear this you have to connect 4-8 Ohm speaker to the speaker connector on the board) and the RGB led will blink several times.
 
 The hostname is initially `rvdock`.
 To log in - username: `root`, password: `rvdock`
