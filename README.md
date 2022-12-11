@@ -13,7 +13,7 @@ This may look an oddly small operating system but its a real thing.
 - on windows use eg. Raspberry Pi imager (you have to select `Use custom` option at the end of the list)
 - on linux use `dd` command
 
-Connect HDMI display cable (the resolution is set to 1280x800 initially) and power up the board via USB-C port. Also, when working with the board directly you have to connect keyboard to the USB port. You need this to configure WiFi first time.
+Insert SD card, connect HDMI display cable (the resolution is set to 1280x800 initially) and power up the board via USB-C port. Also, when working with the board directly you have to connect keyboard to the USB port. You need this to configure WiFi first time.
 When the system boots it will play sound (to hear this you have to connect 4-8 Ohm speaker to the speaker connector on the board) and the RGB led will blink several times.
 
 The hostname is initially `rvdock`.
