@@ -1,4 +1,4 @@
-# Minimal boot images for Lichee dock
+# Minimal boot image for Lichee RV dock (currently 30MB to download)
 
 Lichee RV system-on-module is using Allwinner D1 SOC. Inside the chip there is a 64-bit single core low cost RISC-V CPU. Paired with 512MB DDR3 RAM its nice, small and low-power system. It is hardly any replacement for high performance SBC's (Raspberry Pi, Banana Pi, Rock Pi etc.). You probably don't want to run desktop operating system with that board. Also, the Allwinner D1 SOC itself is not supported by mainline Linux kernel yet (as of january 2023).
 
