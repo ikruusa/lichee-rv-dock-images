@@ -24,6 +24,7 @@ You have to configure WiFi manually:
 ```
 # wpa_passphrase "yourssid" yourpasswd >> /etc/wpa_supplicant.conf
 # /etc/init.d/S40network restart
+# ip a
 ```
 Now you can login via `ssh` also. Warning - you may want to remove plain text password from `/etc/wpa_supplicant.conf` later.
 
@@ -34,6 +35,7 @@ What the system includes:
 * wget (with SSL)
 * preinstalled CA certificates
 * `nano` text editor
+* vfat/exfat/ext2 tools
 * alsa utils (`amixer`, `aplay`, `alsamixer`)
 * pipewire for audio processing (configuration part is missing)
 * utils to manipulate GPIOs: `gpiodetect`, `gpioinfo`, `gpioset`,  `gpioget` (check the demo `gpio/gpio_control.sh`)
