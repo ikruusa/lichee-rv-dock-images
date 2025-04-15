@@ -4,6 +4,8 @@ Lichee RV system-on-module is using Allwinner D1 SOC. Inside the chip there is a
 
 This repo presents specially built linux based system for Lichee RV dock. Its targeted for IoT use cases. Or just for fun.
 
+UPDATE: if you would like to play Doom then look into https://github.com/ikruusa/lichee-rv-dock-doom
+
 The image was generated based on customized `buildroot` master branch. One important change is added I2C support (look into /root/demos/i2c).
 The size of the unpacked image is ca. 240MB. There is 125MB free space for you initially. The rest is used by the system.
 
